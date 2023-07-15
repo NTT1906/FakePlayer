@@ -1,0 +1,16 @@
+name: FakePlayer
+author: arie
+main: arie\fakeplayer\Loader
+website: https://github.com/Arie1906/FakePlayer
+version: 0.0.1
+api: 5.0.0
+
+commands:
+  entity:
+    description: Create entity
+    permission: fp.create
+
+permissions:
+  fp.create:
+    description: Allow player create entity
+    default: op
